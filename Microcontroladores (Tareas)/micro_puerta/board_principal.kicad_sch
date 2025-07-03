@@ -17,16 +17,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 41.91) (xy 180.34 41.91)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "17a1f244-9b30-406a-b600-cdd855bd92cc")
-	)
-	(wire
-		(pts
 			(xy 90.17 110.49) (xy 111.76 110.49)
 		)
 		(stroke
@@ -57,6 +47,36 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 58.42) (xy 157.48 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "332ada29-271b-446b-b599-e293836f717d")
+	)
+	(wire
+		(pts
+			(xy 181.61 55.88) (xy 190.5 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "49c97193-eb03-4a81-9303-5e3940d9b354")
+	)
+	(wire
+		(pts
+			(xy 147.32 78.74) (xy 157.48 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a74c5bb-346e-4148-bb3c-76ff9a188046")
+	)
+	(wire
+		(pts
 			(xy 106.68 63.5) (xy 111.76 63.5)
 		)
 		(stroke
@@ -74,6 +94,36 @@
 			(type default)
 		)
 		(uuid "67a2b4bf-75fc-48e3-ba92-dd63269fd5fd")
+	)
+	(wire
+		(pts
+			(xy 181.61 60.96) (xy 190.5 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7034510e-3fb7-44a2-ba17-03dc7362f866")
+	)
+	(wire
+		(pts
+			(xy 181.61 41.91) (xy 190.5 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "750c3374-e206-4386-b796-a50b9717958d")
+	)
+	(wire
+		(pts
+			(xy 181.61 82.55) (xy 189.23 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b664bcf-4b7b-4316-a149-1fa79814fa26")
 	)
 	(wire
 		(pts
@@ -137,16 +187,6 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 34.29) (xy 180.34 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b93f20d7-27c7-4c44-bd39-f4b6d05181cb")
-	)
-	(wire
-		(pts
 			(xy 90.17 82.55) (xy 93.98 82.55)
 		)
 		(stroke
@@ -157,6 +197,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 76.2) (xy 189.23 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ce2804-15bc-4fa8-a762-b4057675cdfe")
+	)
+	(wire
+		(pts
 			(xy 147.32 41.91) (xy 157.48 41.91)
 		)
 		(stroke
@@ -164,6 +214,16 @@
 			(type default)
 		)
 		(uuid "e147fc13-7843-4293-8e86-68a60e6180df")
+	)
+	(wire
+		(pts
+			(xy 181.61 34.29) (xy 190.5 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e5abee30-c434-475e-8cf5-8a91ab7cdfe5")
 	)
 	(wire
 		(pts
@@ -282,7 +342,7 @@
 	)
 	(hierarchical_label "RS-485-"
 		(shape output)
-		(at 190.5 85.09 0)
+		(at 189.23 101.6 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -315,7 +375,7 @@
 	)
 	(hierarchical_label "LAMP+"
 		(shape output)
-		(at 190.5 59.69 0)
+		(at 190.5 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -326,7 +386,7 @@
 	)
 	(hierarchical_label "MA"
 		(shape output)
-		(at 180.34 34.29 0)
+		(at 190.5 34.29 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -337,7 +397,7 @@
 	)
 	(hierarchical_label "LAMP-"
 		(shape output)
-		(at 190.5 55.88 0)
+		(at 190.5 60.96 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -346,9 +406,20 @@
 		)
 		(uuid "85c6f99f-faf7-490b-b159-991a2cf238be")
 	)
+	(hierarchical_label "BUZZER+"
+		(shape output)
+		(at 189.23 76.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "94ef1532-20b9-43d3-8bf4-23ec640771ef")
+	)
 	(hierarchical_label "MC"
 		(shape output)
-		(at 180.34 41.91 0)
+		(at 190.5 41.91 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -381,7 +452,7 @@
 	)
 	(hierarchical_label "RS-485+"
 		(shape output)
-		(at 190.5 82.55 0)
+		(at 189.23 99.06 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -411,6 +482,17 @@
 			(justify right)
 		)
 		(uuid "f6128df4-8714-4de9-b846-15386e650d4d")
+	)
+	(hierarchical_label "BUZZER-"
+		(shape output)
+		(at 189.23 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f61e4338-fdd6-4d5e-b8cf-d579359393bc")
 	)
 	(sheet
 		(at 93.98 30.48)
@@ -640,10 +722,103 @@
 				(justify right)
 			)
 		)
+		(pin "LAMP_micro" output
+			(at 147.32 58.42 0)
+			(uuid "5efb9654-db8c-4f41-8386-6669c1690d96")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUZZER_micro" output
+			(at 147.32 78.74 0)
+			(uuid "e7151737-f0b6-4cce-88aa-4262d1295294")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
 		(instances
 			(project "micro_puerta"
 				(path "/dc282be5-e5dc-42c0-bb17-f509e39380eb/6048650d-625a-424f-9cb1-52e32bdac9fd"
 					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 157.48 72.39)
+		(size 24.13 12.7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "466a8e2f-6139-446d-9a03-40b602320558")
+		(property "Sheetname" "BUZZER_driver"
+			(at 157.48 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "untitled.kicad_sch"
+			(at 157.48 85.6746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "BUZZER" input
+			(at 157.48 78.74 180)
+			(uuid "42c4a8ea-e2d0-47c6-b24a-b59b463d7e69")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BUZZER +" output
+			(at 181.61 76.2 0)
+			(uuid "3a327b27-55c6-44d0-8cc0-b4017a9d34fd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BUZZER -" output
+			(at 181.61 82.55 0)
+			(uuid "1b9ec868-1e3b-4205-b5bc-cb05e42f221b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "micro_puerta"
+				(path "/dc282be5-e5dc-42c0-bb17-f509e39380eb/6048650d-625a-424f-9cb1-52e32bdac9fd"
+					(page "15")
 				)
 			)
 		)
@@ -775,8 +950,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 50.8)
-		(size 12.7 12.7)
+		(at 157.48 52.07)
+		(size 24.13 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -791,7 +966,7 @@
 		)
 		(uuid "590f8cc4-94e0-49f8-bec8-9ea1f9275301")
 		(property "Sheetname" "Driver_lamp"
-			(at 165.1 50.0884 0)
+			(at 157.48 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -800,13 +975,43 @@
 			)
 		)
 		(property "Sheetfile" "Driver_lamp.kicad_sch"
-			(at 165.1 64.0846 0)
+			(at 157.48 65.3546 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left top)
 				(hide yes)
+			)
+		)
+		(pin "LAMP +" output
+			(at 181.61 55.88 0)
+			(uuid "a9820101-21f4-4760-b802-a93cebda310b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LAMP -" output
+			(at 181.61 60.96 0)
+			(uuid "857ac7d2-616d-43b8-8c78-d76c4e3da2fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "LAMP" input
+			(at 157.48 58.42 180)
+			(uuid "f82f4980-ff89-449a-ab7a-e84858c909b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -881,8 +1086,8 @@
 		)
 	)
 	(sheet
-		(at 165.1 76.2)
-		(size 12.7 12.7)
+		(at 157.48 91.44)
+		(size 24.13 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -897,7 +1102,7 @@
 		)
 		(uuid "a7b40c7d-09e5-46d3-9bb9-2c4c565e31b0")
 		(property "Sheetname" "Driver_rs-485"
-			(at 165.1 75.4884 0)
+			(at 157.48 90.7284 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -906,7 +1111,7 @@
 			)
 		)
 		(property "Sheetfile" "Driver_rs-485.kicad_sch"
-			(at 165.1 89.4846 0)
+			(at 157.48 104.7246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -988,7 +1193,7 @@
 	)
 	(sheet
 		(at 157.48 31.75)
-		(size 12.7 12.7)
+		(size 24.13 12.7)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1022,7 +1227,7 @@
 			)
 		)
 		(pin "MA" output
-			(at 170.18 34.29 0)
+			(at 181.61 34.29 0)
 			(uuid "2870da50-b52a-46b0-82f9-4e41763bcf95")
 			(effects
 				(font
@@ -1032,7 +1237,7 @@
 			)
 		)
 		(pin "MC" output
-			(at 170.18 41.91 0)
+			(at 181.61 41.91 0)
 			(uuid "b6f515b6-a355-4657-a434-d8df7b928622")
 			(effects
 				(font

@@ -664,6 +664,10 @@
     [
       "a7b40c7d-09e5-46d3-9bb9-2c4c565e31b0",
       "Driver_rs-485"
+    ],
+    [
+      "466a8e2f-6139-446d-9a03-40b602320558",
+      "BUZZER_driver"
     ]
   ],
   "text_variables": {}

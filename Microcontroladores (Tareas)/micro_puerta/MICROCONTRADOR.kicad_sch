@@ -1152,6 +1152,17 @@
 		)
 		(uuid "a1388ac2-b6cb-4e12-a77a-90e93de8917d")
 	)
+	(hierarchical_label "BUZZER_micro"
+		(shape output)
+		(at 83.82 130.81 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c5088dd4-416c-4abe-84dc-8a10a4d4d22e")
+	)
 	(hierarchical_label "DIP1"
 		(shape input)
 		(at 97.79 50.8 0)
@@ -1184,6 +1195,17 @@
 			(justify right)
 		)
 		(uuid "eec36f57-b44f-4265-a962-2318da6c4c79")
+	)
+	(hierarchical_label "LAMP_micro"
+		(shape output)
+		(at 82.55 116.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fab01065-0afa-4ef6-bb8d-ee76cfe8afe6")
 	)
 	(symbol
 		(lib_id "RF_Module:ESP32-WROOM-32")
