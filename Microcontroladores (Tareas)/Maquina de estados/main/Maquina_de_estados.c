@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
  
+//Declaracion de estados
 #define MICRO_ESP32 00 //Esta macro depende del micro utilizado
 #define ESTADO_INICIAL 0
 #define ESTADO_CERRANDO 1
@@ -15,11 +16,12 @@
 #define LAMP_FAST 2
 #define LAMP_SLOW 3
  
-//Errores
+//Funciones de estado del codigo de Error
 #define ERR_OK 0
 #define ERR_OT 1
 #define ERR_LSM 2
 
+//Funciones de cada estado
 int Func_ESTADO_INICIAL(void);
 int Func_ESTADO_CERRANDO(void);
 int Func_ESTADO_ABRIENDO(void);
@@ -34,6 +36,7 @@ int EstadoActual = ESTADO_INICIAL;
 int EstadoAnterior = ESTADO_INICIAL;
 int EstadoLamp = LAMP_OFF;
  
+//Estructura de entrada y salida de datos
 struct IO
 {
     unsigned int LSC:1;//entrada limitswitch de puerta cerrada
@@ -49,7 +52,8 @@ struct IO
 
 }io;
  
-struct STATUS
+//Estructura del contador
+struct STATUS;
 {
     unsigned int cntTimerCA = 0;//Tiempo de cierre automatico en segundos
     unsigned int cntRunTimer = 0;//Tiempo de rodamiento en segundos
@@ -57,7 +61,7 @@ struct STATUS
 
 }status;
  
-struct CONFIG
+struct CONFIG;
 {
     unsigned int RunTimer = 180;
     unsigned int TimerCA  = 120;
@@ -240,7 +244,7 @@ int Func_ESTADO_CERRADO(void)
 {
     EstadoAnterior = EstadoActual;
     EstadoActual = ESTADO_CERRADO;
-    EstadoLamp = LAMP_OFF
+    EstadoLamp = LAMP_OFF;
 
     //funciones de estado estaticas (una sola vez)
     //Activamos o desactivamos una vez estemos en estado
