@@ -1118,7 +1118,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "02cf73c4-5994-44b5-b515-c3f4651c0c8d")
-		(property "Reference" "#PWR053"
+		(property "Reference" "#PWR?"
 			(at 88.9 81.28 0)
 			(effects
 				(font
@@ -1164,6 +1164,14 @@
 		)
 		(pin "1"
 			(uuid "ccd842f7-c9b9-4779-a11d-ad3051292d10")
+		)
+		(instances
+			(project "micro_puerta"
+				(path "/dc282be5-e5dc-42c0-bb17-f509e39380eb/6048650d-625a-424f-9cb1-52e32bdac9fd/590f8cc4-94e0-49f8-bec8-9ea1f9275301"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1410,7 +1418,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e43c183-6fa7-4272-9786-ed7b4560be38")
-		(property "Reference" "#PWR054"
+		(property "Reference" "#PWR?"
 			(at 114.3 41.91 0)
 			(effects
 				(font
@@ -1456,6 +1464,14 @@
 		)
 		(pin "1"
 			(uuid "417f2460-d714-4a83-9112-aa0bc92998a9")
+		)
+		(instances
+			(project "micro_puerta"
+				(path "/dc282be5-e5dc-42c0-bb17-f509e39380eb/6048650d-625a-424f-9cb1-52e32bdac9fd/590f8cc4-94e0-49f8-bec8-9ea1f9275301"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
 		)
 	)
 	(symbol
@@ -1534,7 +1550,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cd3cbcda-55e6-4ebe-b8ff-6e21fb5b69a6")
-		(property "Reference" "U6"
+		(property "Reference" "U?"
 			(at 102.87 45.72 0)
 			(effects
 				(font
@@ -1591,6 +1607,14 @@
 		)
 		(pin "4"
 			(uuid "96186d5a-1f76-42cd-b3d7-132baa8655ec")
+		)
+		(instances
+			(project "micro_puerta"
+				(path "/dc282be5-e5dc-42c0-bb17-f509e39380eb/6048650d-625a-424f-9cb1-52e32bdac9fd/590f8cc4-94e0-49f8-bec8-9ea1f9275301"
+					(reference "U?")
+					(unit 1)
+				)
+			)
 		)
 	)
 )
